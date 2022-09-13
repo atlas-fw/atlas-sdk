@@ -1,0 +1,9 @@
+{
+    "version": "1.0.0",
+    "data": {
+        "rootPackage": "com.yourname.examplemod.mapping",
+        "mappings": [
+            "Minecraft"
+        ]
+    }
+}

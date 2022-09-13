@@ -7,5 +7,10 @@ plugins {
 group = project.properties["group"] as String
 version = project.properties["version"] as String
 
+atlas {
+    // Work in progress
+}
+
 dependencies {
+    // Work in progress
 }
