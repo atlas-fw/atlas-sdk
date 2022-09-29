@@ -13,4 +13,11 @@ atlas {
 
 dependencies {
     // Work in progress
+//    mapping(atlas.api {
+//        modules {
+//            registry-v0
+//            gui-v0
+//            resources-v0
+//        }
+//    })
 }
