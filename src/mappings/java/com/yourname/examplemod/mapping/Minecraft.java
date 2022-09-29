@@ -3,7 +3,7 @@ package com.yourname.examplemod.mapping;
 import me.xtrm.atlas.annotations.mapping.Map;
 import me.xtrm.atlas.annotations.mapping.Modifiers;
 
-import static me.xtrm.atlas.annotations.mapping.MemberModifier.STATIC;
+import java.lang.reflect.Modifier;
 
 /**
  * Work in progress
@@ -13,7 +13,7 @@ import static me.xtrm.atlas.annotations.mapping.MemberModifier.STATIC;
 @Map("net/minecraft/client/Minecraft")
 public interface Minecraft {
 	@Map("getMinecraft")
-	@Modifiers(STATIC)
+	@Modifiers(Modifier.STATIC)
 	Minecraft getMinecraft();
 
 	@Map("runTask(Ljava/lang/Runnable;)V")
