@@ -1,0 +1,7 @@
+{
+    "schemaVersion": 1,
+    "rootPackage": "com.yourname.examplemod.facade",
+    "facades": [
+        "Minecraft"
+    ]
+}

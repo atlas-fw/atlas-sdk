@@ -1,7 +1,0 @@
-{
-    "schemaVersion": 1,
-    "rootPackage": "com.yourname.examplemod.mapping",
-    "mappings": [
-        "Minecraft"
-    ]
-}
